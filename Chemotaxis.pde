@@ -49,9 +49,9 @@ public class bacteria{
     xPos = x;
     yPos = y; 
     
-     colorRed = 5 + speed;
-     colorGreen = 252 - speed/2;
-     colorBlue = 173 - speed/2;
+     colorRed = 5 + speed*2;
+     colorGreen = 252 - speed*2;
+     colorBlue = 173 - speed*2;
     
   }
   
